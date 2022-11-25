@@ -1,0 +1,41 @@
+.comm-navigation .slds-list__item:hover, .comm-navigation .slds-list_vertical.slds-is-nested .slds-list__item,ul.comm-navigation__list.slds-list_horizontal.slds-has-flexi-truncate button:focus,.comm-navigation.comm-navigation__list >.slds-list__item >.slds-is-active
+{
+     	background-color:#EB0000 !IMPORTANT;
+        color:white !IMPORTANT;
+}
+.sfdcCbImage
+{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.siteforceSldsOneColLayout.siteforceContentArea, .siteforceSldsTwoCol84Layout.siteforceContentArea {
+    margin-top: -30px;
+}
+@font-face {
+    font-family: 'FiraSans-Regular';
+    src: url('FiraSans-Regular.woff') format('woff');
+}
+.cBrandingLogo{
+    width:16rem !IMPORTANT ;
+}
+.slds-container_fluid.slds-truncate.slds-is-active{
+    background-color:#EB0000 !IMPORTANT;
+        color:white !IMPORTANT;
+}
+.header-line-grad{
+    margin-top: 30px;
+    line-height:0.3rem;
+    background-image: linear-gradient(to right, rgb(235,0,0) , rgb(51,0,252));
+}
+.slds-size_xx-small
+{
+    display : block !important;
+}
+.slds-rich-text-editor__select
+{
+    display : none;
+}
+.slds-rich-text-editor__output *,.lightningInputRichText  {
+  font-family: Fira Sans !important;  
+       
+}
+:root { --dxp-c-section-columns-max-width: 1170px; }
